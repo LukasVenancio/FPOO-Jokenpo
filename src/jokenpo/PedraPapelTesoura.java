@@ -15,7 +15,7 @@ public class PedraPapelTesoura {
 		int escolha;
 		
 		System.out.println("****************************************************************************");
-		System.out.println("*************************PEDRA=1**PAPEL=2**TESOURA=3************************");
+		System.out.println("                  PEDRA=1         PAPEL=2        TESOURA=3                  ");
 		System.out.println("****************************************************************************");
 		System.out.println();
 
@@ -39,7 +39,7 @@ public class PedraPapelTesoura {
 			System.out.println("Você não escolheu nenhuma das três opções!");
 		}
 
-		// Exibindo a ecolha da máquina
+		// Exibindo a escolha da máquina
 		if (numeroSorteado == 1) {
 			System.out.println("As máquinas escolheram PEDRA!");
 
